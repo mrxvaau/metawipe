@@ -67,7 +67,7 @@ See **[QUICKSTART.md](QUICKSTART.md)** for detailed platform-specific instructio
 ```cmd
 # 1. Install Python 3.8+ from python.org (check "Add to PATH")
 # 2. Clone repository
-git clone https://github.com/yourusername/metawipe.git
+git clone https://github.com/mrxvaau/metawipe.git
 cd metawipe
 
 # 3. Run automated setup
@@ -82,7 +82,7 @@ setup.bat
 # Ubuntu/Debian
 sudo apt-get update
 sudo apt-get install -y libimage-exiftool-perl ffmpeg python3-pip git
-git clone https://github.com/yourusername/metawipe.git
+git clone https://github.com/mrxvaau/metawipe.git
 cd metawipe
 pip3 install pillow pypdf python-docx mutagen openpyxl
 ```
@@ -92,7 +92,7 @@ pip3 install pillow pypdf python-docx mutagen openpyxl
 ```bash
 # Install dependencies with Homebrew
 brew install exiftool ffmpeg python3 git
-git clone https://github.com/yourusername/metawipe.git
+git clone https://github.com/mrxvaau/metawipe.git
 cd metawipe
 pip3 install pillow pypdf python-docx mutagen openpyxl
 ```
@@ -302,11 +302,8 @@ metawipe/
 ├── setup.sh                    # Automated setup script
 ├── README.md                   # This file
 ├── LICENSE                     # MIT License
-├── requirements.txt            # Python dependencies
-└── examples/                   # Example usage scripts
-    ├── clean_photos.sh
-    ├── clean_documents.sh
-    └── verify_cleaning.sh
+├── setup.bat            # Automated setup script 
+ 
 ```
 
 ---
@@ -361,7 +358,7 @@ Contributions are welcome! Here's how you can help:
 
 ### **Development Setup**
 ```bash
-git clone https://github.com/yourusername/metawipe.git
+git clone https://github.com/mrxvaau/metawipe.git
 cd metawipe
 pip install -r requirements.txt
 python3 -m pytest tests/  # Run tests
@@ -407,10 +404,10 @@ The authors are not responsible for misuse of this software.
 
 ## 📞 **Support & Contact**
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/metawipe/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/metawipe/discussions)
-- **Email**: your.email@example.com
-- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- **Issues**: [GitHub Issues](https://github.com/mrxvaau/metawipe/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/mrxvaau/metawipe/discussions)
+- **Email**: themrxavu@gmail.com
+- **Twitter**: [@mrxvaau](https://twitter.com/mrxvaau)
 
 ---
 
@@ -439,7 +436,7 @@ MetaWipe builds upon excellent open-source tools:
 
 ⭐ **Star this repo if MetaWipe helps you!** ⭐
 
-[Report Bug](https://github.com/yourusername/metawipe/issues) · [Request Feature](https://github.com/yourusername/metawipe/issues) · [Documentation](https://github.com/yourusername/metawipe/wiki)
+[Report Bug](https://github.com/mrxvaau/metawipe/issues) · [Request Feature](https://github.com/mrxvaau/metawipe/issues) · [Documentation](https://github.com/mrxvaau/metawipe/wiki)
 
 </div>
 
